@@ -3,12 +3,12 @@ kind: Pod
 metadata:
   creationTimestamp: null
   labels:
-    run: clayton-nginx
-  name: clayton-nginx
+    run: nginx
+  name: nginx
 spec:
   containers:
   - image: nginx
-    name: clayton-nginx
+    name: nginx
     resources: {}
   dnsPolicy: ClusterFirst
   restartPolicy: Always
