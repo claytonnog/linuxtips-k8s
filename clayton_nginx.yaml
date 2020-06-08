@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  creationTimestamp: null
+  labels:
+    run: clayton-nginx
+  name: clayton-nginx
+spec:
+  containers:
+  - image: nginx
+    name: clayton-nginx
+    resources: {}
+  dnsPolicy: ClusterFirst
+  restartPolicy: Always
+status: {}
